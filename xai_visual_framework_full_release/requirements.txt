@@ -1,0 +1,12 @@
+torch
+torchvision
+captum
+matplotlib
+Pillow
+typer
+pandas
+nbformat
+nbconvert
+jinja2
+streamlit
+plotly
