@@ -2,11 +2,12 @@ torch
 torchvision
 captum
 matplotlib
-Pillow
+pillow
 typer
+streamlit
+scikit-learn
 pandas
 nbformat
 nbconvert
 jinja2
-streamlit
 plotly
