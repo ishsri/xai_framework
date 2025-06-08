@@ -19,7 +19,8 @@ mode = st.radio("Choose Mode", ["Pretrained Workflow", "Custom Upload Workflow"]
 if mode == "Pretrained Workflow":
     st.subheader("Select sample image(s) for XAI visualization")
     
-    SAMPLE_FOLDER = "pretrained_samples"
+    SAMPLE_FOLDER = os.path.join(os.getcwd(), "pretrained_samples")
+
     print(SAMPLE_FOLDER)
     sample_images = sorted([f for f in os.listdir(SAMPLE_FOLDER) if f.endswith((".jpg", ".png"))])
     
